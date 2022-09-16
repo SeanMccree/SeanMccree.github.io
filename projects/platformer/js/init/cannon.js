@@ -25,14 +25,14 @@
     let createCannon = cannon.create;
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-    createCannon(type, position, delay); 
-    createCannon("left",300); 
     
-    // example:
-    createCannon("top", 450);
+    createCollectable(type.steve, 200, 170, 6, 0.7)
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
   cannon.init = init;
-})(window);
+})(window); 
+createCannon("top", 450); 
+createCannon("left", 300, 1000) 
+createCannon("right", 300, 450)

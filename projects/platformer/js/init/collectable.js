@@ -38,11 +38,15 @@
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
     createCollectable(type, x, y, gravity, bounce);
-
+    createCollectable(gravity); 
+    createCollectable(bounce); 
 
   
     // example:
-    createCollectable(type.steve, 200, 170, 6, 0.7);
+    createCollectable(type.steve, 200, 170, 6, 0.7); 
+    createCollectable(typetype.max, 200, 170, 6, 0.7); 
+    createCollectable(type.grace, 200, 170, 6, 0.7);
+
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
