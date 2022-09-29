@@ -34,7 +34,7 @@
    */
   function init(game) {
     let createCollectable = collectable.create;
-
+  }
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
     createCollectable(type, x, y, gravity, bounce);
