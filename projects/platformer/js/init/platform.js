@@ -28,21 +28,24 @@
 
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-      createPlatform(x,y,scaleX,scaleY); 
-      createPlatform(x, y, scaleX, scaleY);
-
-      
-      
-     
     createPlatform(0, game.world.height - 32, 3, 2); // DO NOT DELETE
 
-    // example: 
-    createPlatform(900, 700);
-    createPlatform(0, 500); 
+    createPlatform(500, 500, 0.3, 10); 
+    createPlatform(100, 500);  
+   createPlatform(0,600); 
+   createPlatform(800,700); 
+   createPlatform(800,200); 
+  // createPlatform(800,500)
+  // createPlatform(900,500) 
+  // createPlatform(0,900)
+      
+    
+    // example:
+
     
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
   platform.init = init;
-})(window); 
+})(window)

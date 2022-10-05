@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+  }
+ /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+  <link rel="https://seafood-menu.com/thompsons-seafood-menu" href="Thompson's seafood.css">

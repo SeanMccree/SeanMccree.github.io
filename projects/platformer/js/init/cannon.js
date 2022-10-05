@@ -26,13 +26,13 @@
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
     
-    createCollectable(type.steve, 200, 170, 6, 0.7)
+    createCannon("top", 450); 
+    createCannon("left", 300, 100) 
+    createCannon("right", 400, 150)
+
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
   cannon.init = init;
 })(window); 
-createCannon("top", 450); 
-createCannon("left", 300, 1000) 
-createCannon("right", 300, 450)
