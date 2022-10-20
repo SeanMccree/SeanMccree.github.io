@@ -8,13 +8,13 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: aquamarine;
 			font-size: 300%;
 			text-align: center;
 			display: block;
 			position: absolute; 
 			top: 200px;
-			left: 300px;  /* <--- Change me! */
+			left: 0px;  /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
@@ -64,7 +64,7 @@
 			// TODO 2 - Variable declarations 
 			
              moveBoxTo(PositionX+20) 
-			 positionX = positionX+20 
+			 positionX = PositionX+20 
 			 var myVariable = someValue;
 			
 			/* 
@@ -75,10 +75,12 @@
 			
 			myVariable = myVariable + 10
 			function update() {
-				moveBoxTo(positionX); 
-			};    positionX= 150
-			      boardwidth= 200
-                 speed= 100
+				moveBoxTo(PositionX); 
+			nameOfFunction()
+			};  
+		
+			      
+                 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
