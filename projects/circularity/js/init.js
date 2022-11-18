@@ -100,8 +100,18 @@ var init = function (window) {
             } 
             if(rightEdge < 0){
                 circle.x = canvas.width + circle.radius;
-            } 
-            
+            }  
+            var topEdge = circle.x - circle.radius 
+            var bottomEdge = circle.x + circle.radius  
+            if(topEdge > canvas.width){
+                circle.x = -circle.radius;
+            }   
+            if(bottomEdge < 0){
+                circle.x = canvas.width + circle.radius;
+            }  
+
+
+
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
